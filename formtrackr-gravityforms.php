@@ -4,7 +4,7 @@
  * Plugin Name: FormTrackr for Gravity Forms
  * Plugin URI: https://github.com/amarasa/formtrackr-gravityforms
  * Description: A plugin to track and display the URLs where Gravity Forms are viewed, with multisite and custom metrics support.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Angelo Marasa
  * Author URI: https://github.com/amarasa
  * License: GPL-2.0-or-later
@@ -31,7 +31,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 /**
  * Define constants.
  */
-define('FORMTRACKR_VERSION', '1.0.1');
+define('FORMTRACKR_VERSION', '1.0.2');
 define('FORMTRACKR_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('FORMTRACKR_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('FORMTRACKR_PLUGIN_BASENAME', plugin_basename(__FILE__));
